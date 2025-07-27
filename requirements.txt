@@ -1,0 +1,17 @@
+# Python Dependencies for PDF Outline Extractor
+#
+# This file specifies the exact versions of Python packages required
+# for the PDF outline extraction tool to function correctly.
+#
+# To install these dependencies, run:
+#   pip install -r requirements.txt
+#
+# Dependencies:
+
+# PyMuPDF (fitz) - Primary PDF processing library
+# This library provides comprehensive PDF parsing capabilities including:
+# - Text extraction with font metadata
+# - Document structure analysis
+# - Multi-page processing support
+# - Cross-platform compatibility
+PyMuPDF==1.23.7
